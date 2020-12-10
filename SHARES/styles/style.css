@@ -1,0 +1,571 @@
+html, body{
+    padding: auto;
+    margin: auto;
+    overflow-x: hidden;
+    background-color: #000 !important;
+}
+header{
+    padding-bottom: 5%;
+}
+.slider{
+    width: 1726.56px;
+    height: 800px;
+    display: flex;
+    padding-left: 12%;
+    margin-top: 5%;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    margin-left: 0;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+.nav a{
+    text-decoration: none;
+    color: #ffff;
+    width: 10%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+}
+.nav li{
+    list-style-type: none;
+    width: 100%;
+}
+.nav a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.nav .enter{
+    display: flex;
+    padding-left: 3%;
+}
+.nav .enter img{
+    height: 25.000001907348633px;
+    width: 19.999996185302734px;
+}
+.menu{
+    padding-top: 1%;
+}
+.shares{
+    padding-top: 1%;
+}
+.aboutUs{
+    padding-top: 1%;
+}
+.logoImage img{
+    width: 60px;
+    height: 60px;
+}
+.contacts{
+    padding-top: 1%;
+}
+.enter{
+    padding-top: 1%;
+}
+.basket{
+    padding-top: 1%;
+}
+.firstCard{
+    display: flex;
+    z-index: 2;
+}
+.firstCard .firstCardImage{
+    padding-left: 10%;
+    z-index: 2;
+}
+.firstCard .firstCardInformation{
+    padding-left: 11%;
+    z-index: 2;
+}
+.firstCard .prices{
+    margin-top: 8%;
+    display: flex;
+    z-index: 2;
+}
+.firstCard .name{
+    color: white;
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 44px;
+    z-index: 2;
+}
+.firstCard .about{
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 29px;
+    z-index: 2;
+}
+.firstCard .pastPrice{
+    color: #B22727;
+    padding-left: 0;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 29px;
+    z-index: 1;
+}
+.firstCard .price{
+    color: #54B129;
+    padding-left: 5%;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 29px;
+    z-index: 2;
+}
+.firstCard button{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin-top: 12%;
+    width: 220px;
+    height: 55px;  
+    cursor: pointer;
+    z-index: 2;
+}
+.firstCard .lineOne{
+    background-color: white;
+    height: 4px;
+    width: 120px;
+    margin-top: -7%;
+    z-index: 4;
+    margin-left: -2%;
+    z-index: 2;
+}
+.secondCard{
+    display: flex;
+    margin-top: 5%;
+    z-index: 2;
+}
+.secondCard .secondCardImage{
+    padding-left: 10%;
+    z-index: 2;
+}
+.secondCard .secondCardInformation{
+    padding-left: 15%;
+    z-index: 2;
+}
+.secondCard .prices{
+    margin-top: 8%;
+    display: flex;
+    margin-left: 40%;
+    z-index: 2;
+}
+.secondCard .name{
+    color: white;
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 44px;
+    text-align: right;
+    z-index: 2;
+}
+.secondCard .about{
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 29px;
+    text-align: right;
+    z-index: 2;
+}
+.secondCard .pastPrice{
+    color: #B22727;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 29px;
+    left: 20px;
+    width: 100%;
+    z-index: 2;
+}
+.secondCard .price{
+    color: #54B129;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 29px;
+    left: 50px;
+    width: 100%;
+    z-index: 2;
+}
+.secondCard button{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin-top: 12%;
+    width: 220px;
+    height: 55px;    
+    cursor: pointer;
+    margin-left: 53%;
+    z-index: 2;
+}
+.secondCard .lineTwo{
+    background-color: white;
+    height: 4px;
+    width: 120px;
+    margin-top: -7%;
+    z-index: 4;
+    margin-left: 38%;
+    z-index: 2;
+}
+.thirdCard{
+    display: flex;
+    margin-top: 5%;
+    z-index: 2;
+}
+.thirdCard .thirdCardImage{
+    padding-left: 10%;
+    z-index: 2;
+}
+.thirdCard .thirdCardInformation{
+    padding-left: 11%;
+    z-index: 2;
+}
+.thirdCard .prices{
+    margin-top: 8%;
+    display: flex;
+    z-index: 2;
+}
+.thirdCard .name{
+    color: white;
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 44px;
+    z-index: 2;
+}
+.thirdCard .about{
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 29px;
+    z-index: 2;
+}
+.thirdCard .pastPrice{
+    color: #B22727;
+    padding-left: 0;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 29px;
+    z-index: 1;
+    z-index: 2;
+}
+.thirdCard .price{
+    color: #54B129;
+    padding-left: 5%;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 29px;
+    z-index: 2;
+}
+.thirdCard button{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin-top: 12%;
+    width: 220px;
+    height: 55px;  
+    cursor: pointer;
+    z-index: 2;
+}
+.thirdCard .lineThree{
+    background-color: white;
+    height: 4px;
+    width: 120px;
+    margin-top: -7%;
+    z-index: 4;
+    margin-left: -2%;
+    z-index: 2;
+}
+.fourthCard{
+    display: flex;
+    margin-top: 5%;
+    z-index: 2;
+}
+.fourthCard .fourthCardImage{
+    padding-left: 10%;
+    z-index: 2;
+}
+.fourthCard .fourthCardInformation{
+    padding-left: 15%;
+    z-index: 2;
+}
+.fourthCard .prices{
+    margin-top: 8%;
+    display: flex;
+    margin-left: 40%;
+    z-index: 2;
+}
+.fourthCard .name{
+    color: white;
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 44px;
+    text-align: right;
+    z-index: 2;
+}
+.fourthCard .about{
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 29px;
+    text-align: right;
+    z-index: 2;
+}
+.fourthCard .pastPrice{
+    color: #B22727;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 29px;
+    left: 20px;
+    width: 100%;
+    z-index: 2;
+}
+.fourthCard .price{
+    color: #54B129;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 29px;
+    left: 50px;
+    width: 100%;
+    z-index: 2;
+}
+.fourthCard button{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin-top: 12%;
+    width: 220px;
+    height: 55px;    
+    cursor: pointer;
+    margin-left: 53%;
+    z-index: 2;
+}
+.fourthCard .lineFour{
+    background-color: white;
+    height: 4px;
+    width: 120px;
+    margin-top: -7%;
+    z-index: 4;
+    margin-left: 38%;
+    z-index: 2;
+}
+.fifthCard{
+    display: flex;
+    margin-top: 5%;
+    z-index: 2;
+}
+.fifthCard .fifthCardImage{
+    padding-left: 10%;
+    z-index: 2;
+}
+.fifthCard .fifthCardInformation{
+    padding-left: 11%;
+    z-index: 2;
+}
+.fifthCard .prices{
+    margin-top: 8%;
+    display: flex;
+    z-index: 2;
+}
+.fifthCard .name{
+    color: white;
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 44px;
+    z-index: 2;
+}
+.fifthCard .about{
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 29px;
+    z-index: 2;
+}
+.fifthCard .pastPrice{
+    color: #B22727;
+    padding-left: 0;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 29px;
+    z-index: 1;
+}
+.fifthCard .price{
+    color: #54B129;
+    padding-left: 5%;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 29px;
+    z-index: 2;
+}
+.fifthCard button{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin-top: 12%;
+    width: 220px;
+    height: 55px;  
+    cursor: pointer;
+    z-index: 2;
+}
+.fifthCard .lineFive{
+    background-color: white;
+    height: 4px;
+    width: 120px;
+    margin-top: -7%;
+    z-index: 4;
+    margin-left: -2%;
+    z-index: 2;
+}
+.sixthCard{
+    display: flex;
+    margin-top: 5%;
+    z-index: 2;
+}
+.sixthCard .sixthCardImage{
+    padding-left: 10%;
+    z-index: 2;
+}
+.sixthCard .sixthCardInformation{
+    padding-left: 15%;
+    z-index: 2;
+}
+.sixthCard .prices{
+    margin-top: 8%;
+    display: flex;
+    margin-left: 40%;
+    z-index: 2;
+}
+.sixthCard .name{
+    color: white;
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 44px;
+    text-align: right;
+    z-index: 2;
+}
+.sixthCard .about{
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 29px;
+    text-align: right;
+    z-index: 2;
+}
+.sixthCard .pastPrice{
+    color: #B22727;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 29px;
+    left: 20px;
+    width: 100%;
+    z-index: 2;
+}
+.sixthCard .price{
+    color: #54B129;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 29px;
+    left: 50px;
+    width: 100%;
+    z-index: 2;
+}
+.sixthCard button{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin-top: 12%;
+    width: 220px;
+    height: 55px;    
+    cursor: pointer;
+    margin-left: 53%;
+    z-index: 2;
+}
+.sixthCard .lineSix{
+    background-color: white;
+    height: 4px;
+    width: 120px;
+    margin-top: -7%;
+    z-index: 4;
+    margin-left: 38%;
+    z-index: 2;
+}
+footer{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+}
+footer .bold{
+    color: #fff;
+    font-weight: bold;
+}
+footer .p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffff;
+    letter-spacing: 0.01em;    
+}
+.footerBlockOne{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.footerBlockTwo{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+}
+.footerBlockThree{
+    position: absolute;
+    top: 40%;
+    left: 44%;
+}
+.footerBlockFour{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+}
+.footerImages{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 40%;
+    left: 90%;
+}
+.instagram{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -5%;
+}
+.facebook{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 3.5%;
+}
+.whatsapp{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 7%;
+}
+.bgPhoto1{
+    position: absolute;
+    left: 25%;
+    top: 30%;
+}
+.bgPhoto2{
+    position: absolute;
+    left: 25%;
+    top: 140%;
+}.bgPhoto3{
+    position: absolute;
+    left: 25%;
+    top: 220%;
+}.bgPhoto4{
+    position: absolute;
+    left: 25%;
+    top: 300%;
+}

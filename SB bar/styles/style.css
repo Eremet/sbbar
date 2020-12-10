@@ -1,0 +1,260 @@
+html, body{
+    padding: auto;
+    margin: auto;
+    overflow-x: hidden;
+    background-color: #000 !important;
+}
+.slider{
+    width: 1240px;
+    height: 774px;
+    margin-left: 10%;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    margin-left: 0;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.nav a{
+    text-decoration: none;
+    color: #ffff;
+    width: 10%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+}
+.nav li{
+    list-style-type: none;
+    width: 100%;
+}
+.nav a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.nav .enter{
+    display: flex;
+    padding-left: 3%;
+}
+.nav .enter img{
+    height: 25.000001907348633px;
+    width: 19.999996185302734px;
+}
+.menu{
+    padding-top: 1%;
+}
+.shares{
+    padding-top: 1%;
+}
+.aboutUs{
+    padding-top: 1%;
+}
+.logoImage img{
+    width: 60px;
+    height: 60px;
+}
+.contacts{
+    padding-top: 1%;
+}
+.enter{
+    padding-top: 1%;
+}
+.basket{
+    padding-top: 1%;
+}
+.sectionMenuList{
+    background-color: #000;
+    padding-top: 5%;
+    height: 1600px;
+}
+.menuUl{
+    display: flex;
+    justify-content: space-around;
+}
+.menuUl h1{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 44px;
+    color: #ffff;
+    padding-top: 4%;
+    padding-left: 6%;
+}
+.menuUl ul{
+    padding-right: 6%;
+}
+.menuNav{
+    width: 80%;
+    display: flex;
+    margin-left: 0;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+.menuNav a{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #ffff;
+}
+.menuNav a:hover{
+    color: #ffff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+.menuNav li{
+    list-style-type: none;
+    width: 100%;
+}
+.card{
+    display: flex;
+    background: #000;
+    width: 380px;
+    height: 80px;
+}
+.sectionMenuList .cards{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    width: 1300px;
+    margin-left: 8%;
+}
+.sectionMenuList .cards2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 23%;
+    width: 1300px;
+    margin-left: 8%;
+}
+.sectionMenuList .cards3{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 24%;
+    width: 1300px;
+    margin-left: 8%;
+}
+.sectionMenuList p{
+    color: #ffff;
+}
+.sectionMenuList .name{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+}
+.sectionMenuList .about{
+    font-size: 14px;
+    line-height: 17px;
+}
+.sectionMenuList .price{
+    font-size: 25px;
+    line-height: 20px;
+}
+.sectionMenuList .quantity{
+    font-size: 18px;
+    line-height: 22px;
+}
+.sectionMenuList .buyButton{
+    width: 117px;
+    height: 40px;
+    border: 1px solid #fff;
+    margin-bottom: 5%;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    margin-top: -2%;
+}
+.sectionMenuList .button{
+    display: flex;
+    justify-content: space-between;
+}
+.sectionAboutUs{
+    background-color: #000;
+    padding-top: 5%;
+}
+.sectionAboutUs h1{
+    color: #ffff;
+    margin-left: 8%;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 44px;
+}
+.divAboutUs{
+    display: flex;
+    justify-content: space-around;
+}
+.sectionAboutUs p{
+    font-size: 18px;
+    line-height: 28px;  
+    letter-spacing: 0.02em;
+    color: #ffff;
+    margin-left: -15%;
+}
+.sectionAboutUs img{
+    margin-left: 2.5%;
+}
+footer{
+    position: relative;
+    display: flex;
+    background-color: #000;
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+}
+footer .bold{
+    color: #fff;
+    font-weight: bold;
+}
+footer .p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffff;
+    letter-spacing: 0.01em;    
+}
+.footerBlockOne{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.footerBlockTwo{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+}
+.footerBlockThree{
+    position: absolute;
+    top: 40%;
+    left: 44%;
+}
+.footerBlockFour{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+}
+.footerImages{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 40%;
+    left: 90%;
+}
+.instagram{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -5%;
+}
+.facebook{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 3.5%;
+}
+.whatsapp{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 7%;
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../JS Hometask"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Project SB-BAR "
+	}
+}

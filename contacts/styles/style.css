@@ -1,0 +1,248 @@
+html, body{
+    padding: auto;
+    margin: auto;
+    overflow-x: hidden;
+    background-color: #000 !important;
+}
+header{
+    height: 900px;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    margin-left: 0;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.nav a{
+    text-decoration: none;
+    color: #ffff;
+    width: 10%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+}
+.nav li{
+    list-style-type: none;
+    width: 100%;
+}
+.nav a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.nav .enter{
+    display: flex;
+    padding-left: 3%;
+}
+.nav .enter img{
+    height: 25.000001907348633px;
+    width: 19.999996185302734px;
+}
+.menu{
+    padding-top: 1%;
+}
+.shares{
+    padding-top: 1%;
+}
+.aboutUs{
+    padding-top: 1%;
+}
+.logoImage img{
+    width: 60px;
+    height: 60px;
+}
+.contacts{
+    padding-top: 1%;
+}
+.enter{
+    padding-top: 1%;
+}
+.basket{
+    padding-top: 1%;
+}
+.map{
+    left: 40%;
+    top: 50%;
+    position: absolute;
+}
+.sectionPharagraph{
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 59px;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    z-index: 2;
+}
+.workTime{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+}
+.time{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 58.5%;
+}
+.days{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 61%;
+}
+.phone{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 70%;
+}
+.firstPhone{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 74%;
+}
+.secondPhone{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 77%;
+}
+.adres{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 91%;
+}
+.city{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 95%;
+}
+.instagramImage{
+    position: absolute;
+    left: 5%;
+    top: 108%;
+    width: 40px;
+    height: 40px;
+}
+.whatsappImage{
+    position: absolute;
+    left: 10%;
+    top: 108%;
+    width: 40px;
+    height: 40px;
+}
+.facebookImage{
+    position: absolute;
+    left: 15%;
+    top: 108%;
+    width: 40px;
+    height: 40px;
+}
+.pist{
+    position: absolute;
+    left: -1%;
+    top: 15%;
+}
+.pist2{
+    position: absolute;
+    left: 40%;
+    top: 114%;
+}
+footer{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+}
+footer .bold{
+    color: #fff;
+    font-weight: bold;
+}
+footer .p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffff;
+    letter-spacing: 0.01em;    
+}
+.footerBlockOne{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.footerBlockTwo{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+}
+.footerBlockThree{
+    position: absolute;
+    top: 40%;
+    left: 44%;
+}
+.footerBlockFour{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+}
+.footerImages{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 40%;
+    left: 90%;
+}
+.instagram{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -5%;
+}
+.facebook{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 3.5%;
+}
+.whatsapp{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 7%;
+}
